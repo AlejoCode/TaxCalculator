@@ -1,5 +1,5 @@
-## TaxCalculator
-# Vanilla Javascript Tax Calculator
+# TaxCalculator
+## Vanilla Javascript Tax Calculator
 
 
 Run it on nodejs by simply opening a terminal in the root and typing: `$node index.js`
