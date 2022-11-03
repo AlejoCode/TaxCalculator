@@ -1,0 +1,23 @@
+{
+  "name": "taxcalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejoCode/TaxCalculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejoCode/TaxCalculator/issues"
+  },
+  "homepage": "https://github.com/AlejoCode/TaxCalculator#readme",
+  "dependencies": {
+    "jest": "^29.2.2"
+  }
+}
