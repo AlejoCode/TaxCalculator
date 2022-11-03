@@ -1,12 +1,12 @@
 let inputOne = ["2 book at 12.49","1 music CD at 14.99","1 chocolate bar at 0.85"]
 let inputTwo = ["1 imported box of chocolates at 10.00","1 imported bottle of perfume at 47.50"]
 let inputThree = ["1 imported bottle of perfume at 27.99","1 bottle of perfume at 18.99","1 packet of headache pills at 9.75","3 imported boxes of chocolates at 11.25"]
-let salesTaxes = 0
-let total = 0
-let output = []
 let exemptedItems = "book box of chocolates chocolate bar packet of headache pills boxes of chocolates books"
 
 const taxCalculator = (input) => {
+  let salesTaxes = 0
+  let total = 0
+  let output = []
   input.forEach((item) => {
   let itemTax = 0
   let itemTotal = 0
@@ -51,8 +51,12 @@ output.forEach(function(item) {
 });
 console.log('Sales Taxes: ' + salesTaxes)
 console.log('Total: ' + totalWithTaxes)
+output.push('Sales Taxes: ' + salesTaxes)
+output.push('Total: ' + totalWithTaxes)
+return output
 }
 //run test cases; change the input parameter to any input with the list of products inside of an array
 taxCalculator(inputThree)
 //taxCalculator(inputOne)
 //taxCalculator(inputTwo)
+module.exports = taxCalculator
