@@ -7,8 +7,16 @@ When I purchase items I receive a receipt which lists the name of all the items 
 ##  How to run it
 
 
-Run it on nodejs by simply opening a terminal in the root and typing: `$node index.js`
+Run it on nodejs by simply opening a terminal in the root and typing: `$node taxCalculator.js`
  
  or
  
 Run it in Replit in the follow url https://replit.com/@AlejoCode/Tax-Calculator?v=1#index.js
+
+
+##  How to test it
+
+
+Install jest by typing in the root: `$npm install`
+
+Run jest by typing in the root: `$npm test`
