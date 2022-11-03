@@ -1,7 +1,9 @@
 ## TaxCalculator
-#Vanilla Javascript Tax Calculator
+# Vanilla Javascript Tax Calculator
 
 
-Instructions to run : node index.js
-
-Run in in Replit https://replit.com/@AlejoCode/Tax-Calculator?v=1#index.js
+Run it on nodejs by simply opening a terminal in the root and typing: $node index.js
+ 
+ or
+ 
+Run it in Replit in the follow url https://replit.com/@AlejoCode/Tax-Calculator?v=1#index.js
